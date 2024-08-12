@@ -1,0 +1,11 @@
+El lenguaje de programación Better And Portable Code (BAPC) es un lenguaje para trabajar con listas de enteros. El lenguaje tiene dos funciones incorporadas: 'R' (reverse) y 'D' (drop). La función 'R' invierte su lista de entrada, y 'o' elimina el primer elemento de su entrada y devuelve el resto, o da un error en caso de que su entrada sea una lista vacía. Para obtener un comportamiento más avanzado, las funciones se pueden componer: "AB" es la función que primero aplica 'A' a su entrada y luego 'B' a la lista resultante. Por ejemplo, "ROD" es una función que invierte una lista y luego elimina los dos primeros elementos. Desafortunadamente, nuestro intérprete BAPC ha sufrido una degradación, por lo que te pedimos que escribas uno nuevo. Dado un programa BAPC y su entrada, devuelve su salida o "error" en caso de que 'D' se aplique a una lista vacía. Las listas se representan como el carácter '[' seguido de una lista de enteros separados por comas seguida del carácter ']'. Observa que las listas de entrada y salida pueden ser bastante largas.
+
+Entrada
+En la primera línea un número positivo: el número de casos de prueba, como máximo 100. Después de eso por caso de prueba:
+· una línea con una cadena p (1 ≤ longitud(p) ≤ 100.000): un programa BAPC, que consta de los caracteres "R' y 'o'.
+· una línea con un entero n (0 ≤ n ≤ 100 000): el número de elementos en la entrada.
+· una línea con una lista de n enteros en la forma |r1, .... . ] (1 ≤", ≤ 100): la lista de entrada.
+
+Salida
+Por caso de prueba:
+· una línea con la lista de enteros resultante o "error" en caso de un error.

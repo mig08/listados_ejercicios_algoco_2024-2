@@ -1,0 +1,10 @@
+Considera una secuencia A de enteros, que contiene N enteros entre 1 y N. Cada entero aparece exactamente una vez en la secuencia.
+Una subsecuencia de A es una secuencia obtenida al eliminar algunos (posiblemente ninguno) números del principio de A, y luego del final de A.
+Calcula cuántas subsecuencias diferentes de A de longitud impar tienen su mediana igual a B. La mediana de una secuencia es el elemento en el medio de la secuencia después de que se ordena. Por ejemplo, la mediana de la secuencia (5, 1, 3) es 3.
+
+Entrada
+La primera línea contiene dos enteros, N (1 ≤ N ≤ 100000) y B (1 ≤ B ≤ N).
+La segunda línea contiene N enteros separados por espacios, los elementos de la secuencia A.
+
+Salida
+Tu programa debe imprimir el número de subsecuencias de A cuya mediana es B.

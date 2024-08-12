@@ -1,0 +1,15 @@
+En este problema tratamos con el cálculo de los precios de las acciones. Necesitas saber las siguientes cosas sobre los precios de las acciones:
+- El precio de venta es el precio más bajo al que alguien está dispuesto a vender una acción de una acción.
+- El precio de oferta es el precio más alto al que alguien está dispuesto a comprar una acción de una acción.
+- El precio de la acción es el precio al que se estableció el último trato.
+Siempre que el precio de oferta sea mayor o igual al precio de venta, se establece un trato. Una orden de compra que ofrece el precio de oferta se empareja con una orden de venta que exige el precio de venta, y las acciones se intercambian al ritmo del precio de venta hasta que se cumpla la orden de venta o la orden de compra (o ambas) (es decir, el comprador no quiere más acciones, o el vendedor no quiere vender más acciones). Se te dará una lista de órdenes (ya sea de compra o de venta) y tendrás que calcular, después de cada orden, el precio de venta actual, el precio de oferta y el precio de la acción.
+
+Entrada
+En la primera línea un número positivo: el número de casos de prueba, como máximo 100. Después de eso por caso de prueba:
+- Una línea con un número entero n (1 ≤ n ≤ 1000); el número de órdenes.
+- n líneas de la forma "order_type a shares at y", donde order_type es "buy" o "sell", a (1 ≤ a ≤ 1 000) es el número de acciones de una acción que alguien desea comprar o vender, y y (1 ≤ y ≤ 1000) es el precio deseado.
+
+Salida
+Por caso de prueba:
+- n líneas, cada una de la forma "a, b, c,", donde a, b, y c, son los precios de venta, oferta y acción actuales, respectivamente, después de que se ha procesado la i-ésima orden y se han realizado todos los tratos posibles.
+Siempre que un precio no esté definido, se debe mostrar "-" en lugar del precio.

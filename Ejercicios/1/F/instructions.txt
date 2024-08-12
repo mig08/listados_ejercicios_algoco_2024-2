@@ -1,0 +1,11 @@
+Mario está intentando salvar a su amada Princesa Peach! Sin embargo, para hacerlo, Mario debe saltar sobre muchos obstáculos para salvar a la Princesa Peach. Por lo tanto, hace un gran plan para infiltrarse en el castillo de Bowser.
+
+Pero primero, necesita practicar. Su hermano Luigi hace un curso de práctica para que Mario se entrene. En este curso, Mario practica buscando todos los posibles obstáculos que podrían quitarle la vida. Pero Mario es descuidado y se pierde algunos obstáculos, cuenta algunos obstáculos más de una vez, y generalmente estropea el orden de los obstáculos que encuentra cuando los enumera.
+
+Escribe un programa para que Luigi pueda decirle a su hermano qué obstáculos se ha perdido.
+
+Entrada
+La primera línea contiene 2 valores. El primer valor NV (0 < N < 100) es el número total de obstáculos. Los obstáculos están numerados de 0 a N-1. El segundo valor Y (0 ≤ Y < 200) representa cuántos obstáculos dijo Mario que ha encontrado en su carrera de práctica. Las siguientes Y líneas enumeran un solo número entero / (0 ≤ k < N) que es el número de un obstáculo que Mario dice que ha encontrado.
+
+Salida
+Primero, muestra los obstáculos que Mario se perdió en orden creciente, cada uno en una línea separada. En la última línea, imprime "Mario encontró X de los obstáculos peligrosos", donde X es el número de obstáculos distintos que Mario encontró.

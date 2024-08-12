@@ -1,0 +1,7 @@
+Escribe un programa que lea una lista de palabras de la entrada estándar e imprima una lista ordenada de todas las palabras compuestas únicas que se pueden hacer concatenando dos palabras diferentes de la lista de entrada. Si la misma palabra compuesta se puede formar de más de una manera, solo debe aparecer una vez en la salida.
+
+Entrada
+La primera línea contiene 2 valores. El primer valor NV (0 < N < 100) es el número total de obstáculos. Los obstáculos están numerados de 0 a N-1. El segundo valor Y (0 ≤ Y < 200) representa cuántos obstáculos dijo Mario que ha encontrado en su carrera de práctica. Las siguientes Y líneas enumeran un solo número entero / (0 ≤ k < N) que es el número de un obstáculo que Mario dice que ha encontrado.
+
+Salida
+Primero, muestra los obstáculos que Mario se perdió en orden creciente, cada uno en una línea separada. En la última línea, imprime "Mario encontró X de los obstáculos peligrosos", donde X es el número de obstáculos distintos que Mario encontró.
