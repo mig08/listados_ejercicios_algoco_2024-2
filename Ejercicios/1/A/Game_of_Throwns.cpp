@@ -10,7 +10,6 @@ int main() {
     cin >> cant_estudiantes;
     cin >> cant_comandos;
     
-    
 
 return 0;
 }
